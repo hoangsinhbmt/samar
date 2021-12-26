@@ -280,6 +280,61 @@
      </div>
     </div>
     <!-- work -->
+    <!-- choose -->
+    <div class="choose">
+        <div class="choose_contain container">
+            <div class="choose_title">
+                <h2>Choose Your Plan</h2>
+                <h1>Choose Your Plan</h1>
+            </div>
+            <div class="slide-btn" id="slide_btn">
+                <button id="month">monthly</button>
+                <button id="year">yearly</button>
+            </div>
+            <div class="choose_content">
+                <div class="choose_item">
+                    <h1>Basic Plan</h1>
+                    <img src="./images/Samar/pic4_1.jpg" alt="" width="130px">
+                    <h2><span id="money1">$49</span>/Month</h2>
+                    <hr>
+                    <p>Graphic Design</p>
+                    <p>Web Design</p>
+                    <p>UI/UX</p>
+                    <p>HTML/CSS</p>
+                    <p>SEO Marketing</p>
+                    <p>Business Analysis</p>
+                    <div class="button"><a href="">START NOW</a></div>
+                </div>
+                <div class="choose_item">
+                    <h1>Standart Plan</h1>
+                    <img src="./images/Samar/pic5_1.jpg" alt="" width="130px">
+                    <h2><span id="money2">$99</span>/Month</h2>
+                    <hr>
+                    <p>Graphic Design</p>
+                    <p>Web Design</p>
+                    <p>UI/UX</p>
+                    <p>HTML/CSS</p>
+                    <p>SEO Marketing</p>
+                    <p>Business Analysis</p>
+                    <div class="button"><a href="">START NOW</a></div>
+                </div>
+                <div class="choose_item">
+                    <h1>Premium Plan</h1>
+                    <img src="./images/Samar/pic6_1.jpg" alt="" width="130px">
+                    <h2><span id="money3">$149</span>/Month</h2>
+                    <hr>
+                    <p>Graphic Design</p>
+                    <p>Web Design</p>
+                    <p>UI/UX</p>
+                    <p>HTML/CSS</p>
+                    <p>SEO Marketing</p>
+                    <p>Business Analysis</p>
+                    <div class="button"><a href="">START NOW</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- choose -->
     <!-- script -->
     <!-- counting up -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -311,6 +366,27 @@
     });
     </script>
     <!-- light gallery -->
-    
+    <!-- choose -->
+    <script>
+        var chance = document.getElementById("year");
+        var slide = document.getElementById("slide_btn");
+        var goback = document.getElementById("month");
+        var mo1 = document.getElementById("money1");
+        var mo2 = document.getElementById("money2");
+        var mo3 = document.getElementById("money3");
+        chance.onclick = function(){
+            slide.classList.add("slide-actived");
+            mo1.innerHTML="$449"
+            mo2.innerHTML="$1099"
+            mo3.innerHTML="$1249"
+        }
+        goback.onclick = function(){
+            slide.classList.remove("slide-actived");
+            mo1.innerHTML="$49"
+            mo2.innerHTML="$99"
+            mo3.innerHTML="$149"
+        }
+    </script>
+    <!-- choose -->
 </body>
 </html>
