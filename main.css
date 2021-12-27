@@ -572,3 +572,110 @@ hr{
     background-color: rgb(221, 221, 221);
 }
  /* choose */
+ /* testinomial */
+ .testinomial{
+margin-top: 50px;
+background: url(./images/Samar/bg17.png);
+ }
+.testinomial_title{
+    text-align: center;
+}
+.testinomial_title h2{
+    color: #f55f8d;
+}
+.testinomial_title h1{
+    font-size: 3rem;
+    font-weight: 1000;
+}
+ .testimonial-content {
+    max-width: 1199px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .testimonial-thumbs .testimonial-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    z-index: 2;
+    background-color: pink;
+  }
+  
+  .testimonial-thumbs {
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 170px;
+    position: relative;
+  }
+  .testimonial-comment {
+    min-height: 300px;
+    width: 100%;
+  }
+  .testimonial-comment .swiper-wrapper {
+    padding-bottom: 20px;
+  }
+  .testimonial-thumbs .testimonial-pic {
+    padding: 30px 0 0;
+    transition: all 0.5s;
+  }
+  .testimonial-thumbs .swiper-slide-thumb-active .testimonial-pic {
+    padding: 0 0 40px;
+  }
+  .testimonial-text {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 10%);
+    margin: 20px 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial-name{
+      font-size: 1.3rem;
+      font-weight: 1000;
+      font-style:italic ;
+  }
+  .testimonial-position{
+      color: #f55f8d;
+      font-style:italic;
+      line-height: 30px;
+  }
+  .testimonial-text p{
+      color: gray;
+      font-size: 1.1rem;
+      font-style: italic;
+      line-height: 30px;
+  }
+  .testimonial-text{
+      position: relative;
+  }
+  .testimonial-icon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+   font-size: 4rem;
+   color: #f55f8d;;
+  }
+  .testimonial-thumbs .swiper-slide-active{
+      position: relative;
+
+  }
+  
+  .testimonial-thumbs .swiper-slide-active::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f55f8d;
+    top: 120px;
+    left: 42px;
+    border-radius: 50%;
+    box-shadow: 0px -20px 0px 2px #f55f8d;
+  }
+ /* testinomial */
